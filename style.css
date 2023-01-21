@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@font-face {
+    font-family: Goldman;
+    src: url(Goldman.ttf);
+}
+
+@font-face {
+    font-family: HammersmithOne;
+    src: url(HammersmithOne.ttf);
+}
+
+
+.main {
+    height: 100vh;
+    display: flex;
+}
+
+img {
+    height: 100%;
+}
+
+.form {
+    flex: 1;
+
+}
+
+.form>p,
+.form>form > div {
+    padding: 15px;
+}
+
+.usrnm,
+.mail-phne,
+.pss {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 35px;
+}
+
+button[type='submit'] {
+    background-color: #596D48;
+    border: none;
+    font-family: Goldman;
+    font-size: 15px;
+    padding: 15px 45px;
+    border-radius: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.cont input {
+    border: 2px solid #E5E7EB;
+    padding: 5px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.cont input:focus {
+    outline: none !important;
+    border: 1px solid rgb(43, 97, 245);
+    box-shadow: 0px 3px 12px 0px rgb(43 97 245);
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.form .fcont {
+    box-shadow: 0px 5px 12px 0px rgb(138 138 138);
+    padding-bottom: 24px;
+}
+
+.form .fcont p {
+    padding-bottom: 15px;
+}
+
+.form>p {
+    font-family: Goldman;
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+
+.form>p:first-child {
+    margin-top: 8px;
+
+}
+.lgin{
+    color: #596D48;
+    text-decoration: none;
+}
+
+.fcont >p{
+    color: #121b22;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 26px;
+}
+
+.fcont label{
+    font-family:HammersmithOne ;
+    color: #121b22;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.fcont input:valid{
+    border: 1px solid  rgb(46, 212, 46);
+    box-shadow: none;
+}

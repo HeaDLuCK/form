@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <img src="flower.jpg" alt="flower">
+
+        <div class="form">
+            <p>This is not a real online servce! You know you need something like this in your life to help you realize
+                your deepest dreams Sign up now to get Started</p>
+            <p>You know you want to</p>
+            <form action="#" method="POST">
+                <div class="fcont">
+                    <p>Let's do this!</p>
+                    <div class="usrnm">
+                        <div class="cont">
+                            <label for="firstName">first name</label>
+                            <input type="text" name="firstName" id="firstName"  required>
+                        </div>
+                        <div class="cont">
+                            <label for="secondName">second name</label>
+                            <input type="text" name="secondName" id="secondName" required>
+                        </div>
+                    </div>
+                    <div class="mail-phne">
+                        <div class="cont">
+                            <label for="email">email</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="cont">
+                            <label for="phone">phone number</label>
+                            <input type="tel" name="phone" id="phone" required>
+                        </div>
+                    </div>
+                    <div class="pss">
+                        <div class="cont">
+                            <label for="password">password</label>
+                            <input type="password" name="password" id="password"  minlength="8" maxlength="30" required>
+                        </div>
+                        <div class="cont">
+                            <label for="confirmPassword">confirm Password</label>
+                            <input type="password" name="confirmPassword" id="confirmPassword" minlength="8" maxlength="30" required>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div>
+                    <button type="submit"> Create Account</button>
+                </div>
+            </form>
+            <p>Already have an account? <a href="#" class="lgin">Log in</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
